@@ -9,3 +9,10 @@ Direction of access to buy a name (Direct Purchase):
 Create an account on Digitalnames.IO
 Purchase a digital name from the checkout system 
 Using the Digital Address Book, you may tie this name to any number of address keys, thereby centralizing your wallet addresses for easy access.
+
+Direction of access to generate new names (Credit Exchange)
+
+Create an account on Digitalnames.IO
+Purchase access to the Write API 
+Utilizing the Commands within the API create layers of security with designated IP access functionality. Find out what access key owns specific names in order to make private purchases. 
+
