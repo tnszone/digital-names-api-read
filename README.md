@@ -16,3 +16,4 @@ Create an account on Digitalnames.IO
 Purchase access to the Write API 
 Utilizing the Commands within the API create layers of security with designated IP access functionality. Find out what access key owns specific names in order to make private purchases. 
 
+*Note - (The full process of buying and using a Digital Name can be clearly viewed on reference Flowchart_DN at the following location: https://go.gliffy.com/go/publish/13399349?fbclid=IwAR1noStcCAXsCOOY-1fd6_-lI7g7L_7Mkg6EzksfBa0xvE59JMq0J7V_U9U)
