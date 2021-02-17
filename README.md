@@ -17,3 +17,7 @@ Purchase access to the Write API
 Utilizing the Commands within the API create layers of security with designated IP access functionality. Find out what access key owns specific names in order to make private purchases. 
 
 *Note - (The full process of buying and using a Digital Name can be clearly viewed on reference Flowchart_DN at the following location: https://go.gliffy.com/go/publish/13399349?fbclid=IwAR1noStcCAXsCOOY-1fd6_-lI7g7L_7Mkg6EzksfBa0xvE59JMq0J7V_U9U)
+
+Digital Names API Utility:
+
+I) Read API Commands: Commands in this section of the API are designed specifically for easy access to real time data within the ledger, but do not allow the user to generate new phonetic Identifiers within it.
