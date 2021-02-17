@@ -21,3 +21,8 @@ Utilizing the Commands within the API create layers of security with designated 
 Digital Names API Utility:
 
 I) Read API Commands: Commands in this section of the API are designed specifically for easy access to real time data within the ledger, but do not allow the user to generate new phonetic Identifiers within it.
+
+Command: namelookup * required attribute DigitalName
+http://usa.tnsapi.cloud/call.cfm?apikey=b8g2d5t5&command=namelookup&DigitalName=
+
+ Command consists of the API url reference, which tells the server where in the registry to locate the phonetic identifier. Continuing, the command line function performs a query utilizing a ColdFusion reserved keyword that verifies the users API key against the server ledger. Finally a secondary ColdFusion reserved keyword queries the database for a match of the existing phonetic identifier. The required attribute for this command is the “DigitalName”.
