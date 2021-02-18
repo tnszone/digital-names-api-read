@@ -22,7 +22,17 @@ Digital Names API Utility:
 
 I) Read API Commands: Commands in this section of the API are designed specifically for easy access to real time data within the ledger, but do not allow the user to generate new phonetic Identifiers within it.
 
+1 - Digital Name Lookup - Allows retail resellers/private users to see if a name they want is already active within the database. The api command lines are as follows:
+
 Command: namelookup * required attribute DigitalName
 http://usa.tnsapi.cloud/call.cfm?apikey=b8g2d5t5&command=namelookup&DigitalName=
 
  Command consists of the API url reference, which tells the server where in the registry to locate the phonetic identifier. Continuing, the command line function performs a query utilizing a ColdFusion reserved keyword that verifies the users API key against the server ledger. Finally a secondary ColdFusion reserved keyword queries the database for a match of the existing phonetic identifier. The required attribute for this command is the “DigitalName”.
+ 
+2 - Public Key Lookup - Allows for the search of Public keys to show what names are attached to them. Creating an open user market similar to that of the domain name space.
+
+Command: keylookup * required attribute DigitalName.symbol 
+http://usa.tnsapi.cloud/call.cfm?apikey=b8g2d5t5&command=keylookup&DigitalName=
+
+
+Command consists of the API url reference which tells the server where in the registry to locate the phonetic identifier. Additionally, the command line function performs a query utilizing a ColdFusion reserved keyword that verifies the users Public Key, which has been assigned to the phonetic identifier. The required attribute is “DigitalName.symbol”.
