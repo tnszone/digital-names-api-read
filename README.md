@@ -36,3 +36,9 @@ http://usa.tnsapi.cloud/call.cfm?apikey=b8g2d5t5&command=keylookup&DigitalName=
 
 
 Command consists of the API url reference which tells the server where in the registry to locate the phonetic identifier. Additionally, the command line function performs a query utilizing a ColdFusion reserved keyword that verifies the users Public Key, which has been assigned to the phonetic identifier. The required attribute is “DigitalName.symbol”.
+
+3 - List All Active Public Keys -  Initiates a search and response of all active public keys in response to a particular phonetic identifier, allowing end users to look up what keys are assigned to a particular identifier. 
+
+Command:
+namekeylist * required attribute DigitalName.Optional attribute display (display = JSON or HTML)    
+http://usa.tnsapi.cloud/call.cfm?apikey=b8g2d5t5&command=namekeylist&display=JSON&digitalname=
