@@ -42,3 +42,5 @@ Command consists of the API url reference which tells the server where in the re
 Command:
 namekeylist * required attribute DigitalName.Optional attribute display (display = JSON or HTML)    
 http://usa.tnsapi.cloud/call.cfm?apikey=b8g2d5t5&command=namekeylist&display=JSON&digitalname=
+
+Command consists of the API url reference which tells the server where in the registry to locate the phonetic identifier. This command line function performs a query utilizing a ColdFusion reserved keyword that pulls a full ledger of all Public Keys and parses all active, associated keys applicable to the phonetic identifier in question. 
